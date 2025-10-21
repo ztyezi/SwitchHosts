@@ -108,6 +108,7 @@ export default {
   next: 'Sonraki',
   no_access_to_hosts: 'Hosts dosyasına yazma izni yok.',
   no_record: 'Kayıt yok',
+  open_at_login: 'Oturum açarken başlat',
   overwrite: 'Üzerine Yaz',
   password: 'Parola',
   paste: 'Yapıştır',

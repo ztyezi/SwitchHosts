@@ -113,6 +113,7 @@ const lang: LanguageDict = {
   next: '次へ',
   no_access_to_hosts: 'hostsファイルの書き込み権限がありません。',
   no_record: 'なし',
+  open_at_login: 'ログイン時に起動',
   overwrite: '上書き',
   password: 'パスワード',
   paste: '貼り付け',

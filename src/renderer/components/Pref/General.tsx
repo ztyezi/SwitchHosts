@@ -143,6 +143,17 @@ const General = (props: IProps) => {
       <FormControl>
         <HStack>
           <Checkbox
+            isChecked={data.open_at_login}
+            onChange={(e) => onChange({ open_at_login: e.target.checked })}
+          >
+            {lang.open_at_login}
+          </Checkbox>
+        </HStack>
+      </FormControl>
+
+      <FormControl>
+        <HStack>
+          <Checkbox
             isChecked={data.hide_at_launch}
             onChange={(e) => onChange({ hide_at_launch: e.target.checked })}
           >

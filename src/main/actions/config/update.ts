@@ -40,4 +40,10 @@ export default async (data: Partial<ConfigsType>) => {
       app.dock.show().catch((e) => console.error(e))
     }
   }
+
+  if (old_configs.open_at_login !== data.open_at_login) {
+    app.setLoginItemSettings({
+      openAtLogin: !!data.open_at_login,
+    })
+  }
 }

@@ -32,6 +32,7 @@ const configs = {
   http_api_only_local: true,
   tray_mini_window: true,
   multi_chose_folder_switch_all: false,
+  open_at_login: false,
 
   auto_download_update: true,
 

@@ -114,6 +114,7 @@ const lang: LanguageDict = {
   next: 'Suivant',
   no_access_to_hosts: 'Aucune autorisation pour écrire dans le fichier hosts.',
   no_record: 'Aucun enregistrement',
+  open_at_login: 'Lancer au démarrage',
   overwrite: 'Écraser',
   password: 'Mot de passe',
   paste: 'Coller',

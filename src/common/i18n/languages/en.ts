@@ -113,6 +113,7 @@ export default {
   next: 'Next',
   no_access_to_hosts: 'No permission to write to the Hosts file.',
   no_record: 'No record',
+  open_at_login: 'Launch at login',
   overwrite: 'Overwrite',
   password: 'Password',
   paste: 'Paste',

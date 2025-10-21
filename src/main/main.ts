@@ -170,6 +170,12 @@ app.on('ready', async () => {
     http_api.start(http_api_only_local)
   }
 
+  // 初始化自启动设置
+  let open_at_login = await configGet('open_at_login')
+  app.setLoginItemSettings({
+    openAtLogin: !!open_at_login,
+  })
+
   find.makeWindow()
 })
 

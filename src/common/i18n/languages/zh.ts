@@ -109,6 +109,7 @@ const lang: LanguageDict = {
   next: '下一个',
   no_access_to_hosts: '没有写入 Hosts 文件的权限。',
   no_record: '没有记录',
+  open_at_login: '开机时自动启动',
   overwrite: '覆盖',
   password: '密码',
   paste: '粘贴',

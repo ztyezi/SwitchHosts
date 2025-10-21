@@ -112,6 +112,7 @@ export default {
   next: '다음',
   no_access_to_hosts: '호스트 파일 쓰기 권한이 없습니다.',
   no_record: '레코드 없음',
+  open_at_login: '로그인 시 시작',
   overwrite: '덮어쓰기',
   password: '패스워드',
   paste: '붙여넣기',

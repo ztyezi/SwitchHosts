@@ -113,6 +113,7 @@ const lang: LanguageDict = {
   next: 'Nächste',
   no_access_to_hosts: 'Keine Berechtigung zum Schreiben in die Hosts-Datei.',
   no_record: 'Kein Datensatz',
+  open_at_login: 'Beim Anmelden starten',
   overwrite: 'Überschreiben',
   password: 'Passwort',
   paste: 'Einfügen',
